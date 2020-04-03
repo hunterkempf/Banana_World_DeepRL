@@ -25,3 +25,5 @@ The task is episodic, and in order to solve the environment, my agent had to get
 
 ### Implementation
 
+My Solution to the Banana World Environment uses Deep Q Learning. 
+
