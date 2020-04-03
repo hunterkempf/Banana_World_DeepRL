@@ -23,7 +23,12 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, my agent had to get an average score of +13 over 100 consecutive episodes.
 
-### Implementation
+### Implementation and File Descriptions
 
 My Solution to the Banana World Environment uses Deep Q Learning. 
+
+- Navigation.ipynb holds the code that trains and parameter tunes the reinforcement learning agent for the specific problem.
+- dqn_agent.py holds the generic Deep Q Learning Agent code
+- model.py holds the Deep Q Network (2 layer NN that takes in current state and chooses an appropriate action)
+- Python/ holds the general environment code such as the UnityEnvironment
 
