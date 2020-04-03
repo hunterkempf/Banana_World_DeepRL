@@ -25,10 +25,10 @@ The task is episodic, and in order to solve the environment, my agent had to get
 
 ### Implementation and File Descriptions
 
-My Solution to the Banana World Environment uses Deep Q Learning. 
+My Solution to the Banana World Environment uses Deep Q Learning and solves the challenge in 105 episodes (runtime 205 episodes total).
 
 - Navigation.ipynb holds the code that trains and parameter tunes the reinforcement learning agent for the specific problem.
 - dqn_agent.py holds the generic Deep Q Learning Agent code
 - model.py holds the Deep Q Network (2 layer NN that takes in current state and chooses an appropriate action)
 - Python/ holds the general environment code such as the UnityEnvironment
-
+- checkpoint.pth holds the model weights of the fastest learning model
