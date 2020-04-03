@@ -32,3 +32,4 @@ My Solution to the Banana World Environment uses Deep Q Learning and solves the 
 - model.py holds the Deep Q Network (2 layer NN that takes in current state and chooses an appropriate action)
 - Python/ holds the general environment code such as the UnityEnvironment
 - checkpoint.pth holds the model weights of the fastest learning model
+- Report holds a technical summary of the steps taken to train my Deep Reinforcement Learning Model
